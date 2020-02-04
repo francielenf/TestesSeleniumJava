@@ -7,13 +7,13 @@ import org.openqa.selenium.WebDriver;
 public class LoginPage {
     private WebDriver navegador;
 
-    public LoginPage(WebDriver navegador){
-        this.navegador=navegador;
+    public LoginPage(WebDriver navegador) {
+        this.navegador = navegador;
     }
 
-    public LoginFormPage clickSignIn(){
+    public LoginFormPage clickSignIn() {
         navegador.findElement(By.linkText("Sign in")).click();
 
-        return LoginFormPage (navegador);
+        return new LoginFormPage(navegador);
     }
 }

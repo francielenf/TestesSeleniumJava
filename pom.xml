@@ -36,7 +36,12 @@
             <version>1.4.0</version>
         </dependency>
 
-    </dependencies>
 
+    </dependencies>
+    <properties>
+        <java.version>1.11</java.version>
+        <maven.compiler.source>1.11</maven.compiler.source>
+        <maven.compiler.target>1.11</maven.compiler.target>
+    </properties>
 
 </project>

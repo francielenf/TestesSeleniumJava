@@ -1,4 +1,5 @@
-testAdicionarUmaInformacaoAdicionalDoUsuario,tipo,contato,mensagem,Duration(ms)
-"",Phone,000000,Your contact has been added!,968.0
-"",Phone,111111,Your contact has been added!,815.0
-"",Phone,222222,Your contact has been added!,1199.0
+testAdicionarUmaInformacaoAdicionalDoUsuario,tipo,contato,mensagem
+                                             ,Phone,000000,Your contact has been added!
+                                             ,Phone,111111,Your contact has been added!
+                                             ,Phone,222222,Your contact has been added!
+
