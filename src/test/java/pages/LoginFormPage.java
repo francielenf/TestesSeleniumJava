@@ -1,13 +1,16 @@
 package pages;
 
-        import org.openqa.selenium.By;
-        import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 
-public class LoginFormPage {
-    private WebDriver navegador;
+import java.util.concurrent.TimeUnit;
+
+public class LoginFormPage extends BasePage {
+
+
 
     public LoginFormPage(WebDriver navegador) {
-        this.navegador = navegador;
+        super(navegador);
     }
 
     public LoginFormPage typeLogin(String login){
@@ -17,7 +20,25 @@ public class LoginFormPage {
 
     public LoginFormPage typePassword (String password){
         navegador.findElement(By.id("signinbox")).findElement(By.name("password")).sendKeys(password);
-
         return this;
+    }
+
+   /* public SecretaPage clicarSignIn(){
+
+
+        navegador.findElement(By.linkText("SIGN IN")).click();
+
+
+        return new SecretaPage(navegador);
+    }*/
+
+    public SecretaPage fazerLogin(String login, String password){
+        //navegador.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        typeLogin(login);
+        typePassword(password);
+        navegador.findElement(By.linkText("SIGN IN")).click();
+        navegador.findElement(By.linkText("SIGN IN")).click();
+
+        return new SecretaPage(navegador);
     }
 }

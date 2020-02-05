@@ -9,8 +9,5 @@
         <module name="webdriverjava" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="webdriverjava" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>

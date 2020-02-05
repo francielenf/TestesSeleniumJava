@@ -1,5 +1,6 @@
-testAdicionarUmaInformacaoAdicionalDoUsuario,tipo,contato,mensagem
-                                             ,Phone,000000,Your contact has been added!
-                                             ,Phone,111111,Your contact has been added!
-                                             ,Phone,222222,Your contact has been added!
-
+testAdicionarUmaInformacaoAdicionalDoUsuario,tipo,contato,mensagem,Duration(ms)
+"",Phone,+5511989891132,Your contact has been added!,970.0
+"",Phone,+5511989891133,Your contact has been added!,806.0
+"",Phone,+5511989891134,Your contact has been added!,732.0
+"",E-mail,email0001@julio.com,Your contact has been added!,690.0
+"",E-mail,email0002@julio.com,Your contact has been added!,952.0
